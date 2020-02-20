@@ -236,3 +236,22 @@ function yearsUntilRetirement(year, firstName) {
 
 yearsUntilRetirement(1948, "Jennifer");
 */
+
+/************** function statements and expressions *****/
+// function expression:
+/*
+var functionNAme = function(argument1, argument2) {
+  //here goes function block
+
+  //RETURN KEYWORK TERMINATES FUNCTION
+};
+
+//function declaration
+function functionNAme(argument1, argument2) {
+  //here goes function block
+}
+
+// EXPRESSION: JS expressions are piece of code that always producce a value; It doesn't matter how long the code is as long as it produces a single result, it is an expression.
+// STATEMENTS:  They don't produce immediate value. eg if-else statement, function declarations
+
+*/
