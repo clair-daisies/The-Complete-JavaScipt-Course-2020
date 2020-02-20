@@ -255,3 +255,43 @@ function functionNAme(argument1, argument2) {
 // STATEMENTS:  They don't produce immediate value. eg if-else statement, function declarations
 
 */
+
+/*********** ARRAYS *******/
+/* arrays are like collection of variables that can even have different data types*/
+/*
+//initialize new array
+var arrayName = ["element", 1, "another element"];
+var arrayName2 = new Array("element1", "element2", "element2");
+
+//mutate array data
+arrayName[1] = "element1";
+arrayName[arrayName.length] = "Something";
+
+//METHODS FOR ARRAY
+var john = ["John", "Smith", 1990, "teacher", false];
+
+// PUSH -adds an element at the end of an array
+john.push("blue");
+
+//UNSHIFT - adds new element at the beginning of the array
+john.unshift("Mr.");
+console.log(john);
+
+//POP - removes element from the end of an array
+john.pop();
+
+//SHIFT - removes element from the beginning of an array
+john.shift();
+console.log(john);
+
+//INDEXOF - indexOf returns the position of an arguement we passed inside of an array
+var index1990 = john.indexOf(1990);
+console.log(index1990);
+
+var isDesigner =
+  john.indexOf("designer") === -1
+    ? "John is not a designer"
+    : "john is a designer";
+
+console.log(isDesigner);
+*/
