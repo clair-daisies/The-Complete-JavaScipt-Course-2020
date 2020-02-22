@@ -360,3 +360,54 @@ var finalValues = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 console.log(tips);
 console.log(finalValues);
 */
+
+//OBJECTS
+/*Object is collection of key-value pair. We can use object to group together different variables that belong together and have no particular order. This is also one fundamental difference between array and object i.e in array order matters. */
+
+//creating object:
+//OBJECT LITERAL: It is like a container we can fill with variables called PROPERTIES.
+/*
+var mary = {
+  firstName: "Mary",
+  lastName: "Smith",
+  age: 24,
+  birthYear: 1996,
+  family: ["jane", "mark", "joe"],
+  job: "teacher",
+  isMarried: false
+};
+
+//new Object
+var jane = new Object();
+jane.name = "Jane";
+jane.age = "20";
+jane.job = " Doctor";
+jane["isMarried"] = false;
+console.log(jane);
+
+//retrieving data from object
+console.log(mary.firstName);
+console.log(mary["lastName"]);
+var x = "birthYear";
+console.log(mary[x]);
+
+//mutate data in object
+mary.job = "Model";
+mary["isMarried"] = true;
+console.log(mary);
+*/
+
+//METHODS: methods are the functions attached to the object
+var mary = {
+  firstName: "Mary",
+  lastName: "Smith",
+  birthYear: 1996,
+  family: ["jane", "mark", "joe"],
+  job: "teacher",
+  isMarried: false,
+  calculateAge: function() {
+    this.age = 2020 - this.birthYear;
+  }
+};
+mary.calculateAge();
+console.log(mary);
