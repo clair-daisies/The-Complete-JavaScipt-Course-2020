@@ -19,4 +19,6 @@
 Modern JavaScript versions such ES6 and up are not supported in older browser.
 So the solution is to convert these modern JS versions back to ES5 by the process called Transpiling and polyfilling.
 
-## NOTE: Check compability in: [ES6 Browser Compatibility Table](https://kangax.github.io/compat-table/es6/)
+## NOTE: Check compability in:
+
+[ES6 Browser Compatibility Table](https://kangax.github.io/compat-table/es6/)
